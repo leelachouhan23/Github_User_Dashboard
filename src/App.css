@@ -1,0 +1,93 @@
+ .App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #3b3f45;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.App input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.App button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6600;
+  color: white;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #cc5200;
+}
+
+.profile {
+  margin-top: 20px;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.profile a:hover {
+  text-decoration: underline;
+}
+
+.repos, .followers {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.repos ul, .followers ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.repos li, .followers li {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.chart {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.bar-chart, .pie-chart {
+  margin-top: 30px;
+}
+.chart-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.App-header {
+  text-align: center;
+  margin: 20px 0;
+}
